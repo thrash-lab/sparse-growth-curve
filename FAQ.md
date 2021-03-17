@@ -9,6 +9,8 @@
 
 #### Q4: Why do you have 3 different notebooks? What are each of them for?
 - A4: The sparse-growth-curve is designed for reading experimental data files, and parse the growth curves within them. Therefore, there are multiple layers of iterations involved:
-    - (1) dddd
+    - (1) First, we need to iterate through every file in the folder.
+    - (2) For each file in the folder, we need to parse each individual growth curve out.
+    - (3) For each individual growth curve, we need to apply the sparse-growth-curve method and characterize different growth phases.
 
-  The 3 notebooks are exactly for decomposing different layers iterations.
+  The 3 notebooks are exactly for decomposing different layers iterations. 
