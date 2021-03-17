@@ -18,5 +18,5 @@ Analysis of bacterial growth curves with relatively low temporal resolution ([in
 - Click the file icon (red arrow), the file system will be shown. Here, we can ignore the "sample_data" folder. It is a folder created by Google Colab for their testing purposes.
 - Hit the "Copy to drive" button (blue arrow), a copy will then be made in your own Drive, and you can then make changes to the notebook.
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/2_file_folder_copy_to_drive.png" width="600">
-    - You can then find your notebook in the "Colab Notebooks" folder in your Google drive.
-       <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/3_colab_notebook_folder.png" width="600">
+- You can then find your notebook in the "Colab Notebooks" folder in your Google drive.
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/3_colab_notebook_folder.png" width="600">
