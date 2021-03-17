@@ -39,4 +39,7 @@ Analysis of bacterial growth curves with relatively low temporal resolution ([in
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/5_file_format.png" width="1200">
 
 #### 2. Open [3_multiple_files_analysis.ipynb](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/3_multiple_files_analysis.ipynb)
-<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/6_open_multiple_files_colab.png" width="800">
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/6_open_multiple_files_colab.png" width="800">.
+
+#### 3. You can delete the first code cell of the notebook. The first cell is for uploading the example data files through the command "wget". You do not need those example data files to analyze your own data.
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/7_delete_first_cell.png" width="800">.
