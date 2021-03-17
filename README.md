@@ -1,6 +1,6 @@
 # sparse-growth-curve
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
 Analysis of bacterial growth curves with relatively low temporal resolution ([introduction in detail](https://github.com/thrash-lab/sparse-growth-curve/blob/main/introduction.md)). The code is written in Python in **Google colab notebooks (to-do: write the detail instruction of how to use it)** (Jupyter notebook).
