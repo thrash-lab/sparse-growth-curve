@@ -14,7 +14,9 @@ Analysis of bacterial growth curves with relatively low temporal resolution ([in
 #### 1. Click the "Open In Colab" badge. In the screenshot below, I am clicking (the red arrow) the badge for the file [1_growth_curve_analysis.ipynb](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/1_one_growth_curve_analysis.ipynb).
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/1_click_the_colab_badge.png" width="600">
 
-#### 2. 
+#### 2. In the interface of the Colab environment, the first two things you can do are:
+- Click the file icon (red arrow), the file system will be shown. Here, we can ignore the "sample_data" folder. It is a folder created by Google Colab for their testing purposes.
+- Hit the "Copy to drive" button (blue arrow), a copy will then be made in your own Drive, and you can then make changes to the notebook.
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/2_file_folder_copy_to_drive.png" width="600">
-
-<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/3_colab_notebook_folder.png" width="600">
+  - You can find your notebook in the "Colab Notebooks" folder in your Google drive.
+  <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/3_colab_notebook_folder.png" width="600">
