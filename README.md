@@ -35,5 +35,8 @@ Analysis of bacterial growth curves with relatively low temporal resolution ([in
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/5_upload_files.png" width="800">
 
 ## Analyze your own data
-#### 1. For the format of your own data, see the [**sample data**](https://github.com/thrash-lab/sparse-growth-curve/tree/main/Growth_curve_data_example). You **NEED** to have the **EXACTLY SAME** sheet names ("Data" and "Units"), columns names in both sheets, and the rows names in the "Units" sheet. You **DO NOT NEED** to sort your data in proper order. You **COULD** also add extra columns in the table. Those extra columns will not be read by the code though.
+#### 1. For the format of your own data, see the [**sample data**](https://github.com/thrash-lab/sparse-growth-curve/tree/main/Growth_curve_data_example). You **NEED** to have the **EXACTLY SAME** sheet names ("Data" and "Units"), columns names in both sheets, and the rows names in the "Units" sheet (MAKE SURE there are no extra spaces before and after those names). You **DO NOT NEED** to sort your data in proper order. You **COULD** also add extra columns in the table. Those extra columns will not be read by the code though.
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/5_file_format.png" width="1200">
+
+#### 2. Open [3_multiple_files_analysis.ipynb](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/3_multiple_files_analysis.ipynb)
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/6_open_multiple_files_colab.png" width="800">
