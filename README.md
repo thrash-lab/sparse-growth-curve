@@ -23,7 +23,7 @@ Analysis of bacterial growth curves with relatively low temporal resolution ([in
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/2_colab_notebook_folder.png" width="600">
 
 #### 3. Select "Run all", you can have all the code run at a time. And all three notebooks are compatible for "Run all" action.
-<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/3_run_all" width="600">
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/3_run_all.png" width="600">
 
 - After run all, 
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/3_download_output.png" width="600">
