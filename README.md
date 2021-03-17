@@ -11,6 +11,5 @@ Analysis of bacterial growth curves with relatively low temporal resolution ([in
 3. See [3_multiple_files_analysis.ipynb](https://github.com/thrash-lab/sparse-growth-curve/blob/main/3_multiple_files_analysis.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/3_multiple_files_analysis.ipynb), for running multiple growth curves files in batch.
 
 ## Here's how you can start using sparse-growth-curve
-### Click the "Open In Colab" badge. In the screenshot below, I am clicking (the red arrow) the badge for the file [1_growth_curve_analysis.ipynb](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/1_one_growth_curve_analysis.ipynb).
-
-      <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/1_click_the_colab_badge.png" width="400">
+#### 1. Click the "Open In Colab" badge. In the screenshot below, I am clicking (the red arrow) the badge for the file [1_growth_curve_analysis.ipynb](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/1_one_growth_curve_analysis.ipynb).
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/1_click_the_colab_badge.png" width="400">
