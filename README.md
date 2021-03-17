@@ -27,3 +27,7 @@ Analysis of bacterial growth curves with relatively low temporal resolution ([in
 
 - After running all the cells and hit the refresh button (red arrow), you can see the output files. Then you can download the output files by right clicking the target (blue arrow).  
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/3_download_output.png" width="800">
+
+#### 4. Besides running all the cells at once, you can also hit the play button to run each individual cell (e.g. for debugging purpose).
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/4_run_cell.png" width="800">
+
