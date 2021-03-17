@@ -43,3 +43,15 @@ Analysis of bacterial growth curves with relatively low temporal resolution ([in
 
 #### 3. You can delete the first code cell of the notebook. The first cell is for uploading the example data files through the command "wget". You do not need those example data files to analyze your own data.
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/7_delete_first_cell.png" width="800">.
+
+#### 4. Upload your own data files.
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/8_upload_your_own_data_files.png" width="800">.
+
+#### 5. Run all the code.
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/9_run_all_multiple_files.png" width="800">.
+
+#### 6. After executing all the code, there will be a .zip file as output created. Download this file, all the output tables and figures are inside.
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/10_download_output.png" width="800">.
+
+#### 7. If you got some error, you can scroll down the notebook to "Run the script in batch" section. And see which file is the latest one being processed, it is usually the one that meets errors. Double check if the format of the file is correct or not.
+<img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/11_check_error.png" width="800">.
