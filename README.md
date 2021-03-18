@@ -7,11 +7,11 @@ Analysis of bacterial growth curves with relatively low temporal resolution ([in
 
 1. To learn how to parse an individual growth curve (cell density vs. time), see [1_one_growth_curve_analysis.ipynb](https://github.com/thrash-lab/sparse-growth-curve/blob/main/1_one_growth_curve_analysis.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/1_one_growth_curve_analysis.ipynb)
 2. You can put multiple and related growth curves in one individual excel (.xlsx) file. As examples, you can see the ".xlsx" files in https://github.com/thrash-lab/sparse-growth-curve/tree/main/Growth_curve_data_example. For how an individual file is parsed, see [2_one_file_multiple_growth_curves_analysis.ipynb](https://github.com/thrash-lab/sparse-growth-curve/blob/main/2_one_file_multiple_growth_curves_analysis.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/2_one_file_multiple_growth_curves_analysis.ipynb)
-3. See [3_multiple_files_analysis.ipynb](https://github.com/thrash-lab/sparse-growth-curve/blob/main/3_multiple_files_analysis.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/3_multiple_files_analysis.ipynb), for running multiple growth curves files in batch.
+3. See [3_multiple_files_analysis.ipynb](https://github.com/thrash-lab/sparse-growth-curve/blob/main/3_multiple_files_analysis.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/3_multiple_files_analysis.ipynb), for running multiple growth curve files in batch.
 
 
 ## Test run (To get started)
-#### 1. Click the "Open In Colab" badge. In the screenshot below, I am clicking on (the red arrow)the icon for the file [1_growth_curve_analysis.ipynb](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/1_one_growth_curve_analysis.ipynb).
+#### 1. Click the "Open In Colab" badge. In the screenshot below, click on (the red arrow) the file icon [1_growth_curve_analysis.ipynb](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/1_one_growth_curve_analysis.ipynb).
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/1_click_the_colab_badge.png" width="600">
 
 #### 2. In the interface of the Colab environment, the first two things you can do are:
@@ -28,7 +28,7 @@ Analysis of bacterial growth curves with relatively low temporal resolution ([in
 - After running all the cells and hitting the refresh button (red arrow), you will see the output files. Then you can download the output files by right clicking the target (blue arrow).  
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/3_download_output.png" width="800">
 
-#### 4. Besides running all the cells at once, you can also hit the play button to run each individual cell (e.g. for debugging purpose).
+#### 4. Besides running all the cells at once, you can also hit the play button to run each individual cell (e.g. for debugging purposes).
 <img src="https://github.com/thrash-lab/sparse-growth-curve/blob/main/image/4_run_cell.png" width="800">
 
 #### 5. In [2_one_file_multiple_growth_curves_analysis.ipynb](https://github.com/thrash-lab/sparse-growth-curve/blob/main/2_one_file_multiple_growth_curves_analysis.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/2_one_file_multiple_growth_curves_analysis.ipynb) and [3_multiple_files_analysis.ipynb](https://github.com/thrash-lab/sparse-growth-curve/blob/main/3_multiple_files_analysis.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thrash-lab/sparse-growth-curve/blob/main/3_multiple_files_analysis.ipynb), you need to upload your own Excel file(s) if you want to analyze your own data. Hit the upload file button and choose your data files.
