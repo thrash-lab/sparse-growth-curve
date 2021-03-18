@@ -3,6 +3,14 @@
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) for other contents.
 
+#### **Authors**: Chuankai Cheng and J. Cameron Thrash(*)
+Department of Biological Sciences, University of Southern California, Los Angeles, CA, USA
+
+#### (*) Correspondence: J. Cameron Thrash
+- University of Southern California
+- 3616 Trousdale Pkwy, AHF 209
+- Los Angeles, CA 90089, USA
+- thrash@usc.edu
 
 Analysis of bacterial growth curves with relatively low temporal resolution ([introduction and frequently asked questions](https://github.com/thrash-lab/sparse-growth-curve/blob/main/FAQ.md)). The code is written in Python in [**Google colab notebooks**](https://colab.research.google.com/notebooks/intro.ipynb) (compatible with [Jupyter notebook](https://jupyter.org/)).
 
