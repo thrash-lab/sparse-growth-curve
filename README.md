@@ -4,7 +4,7 @@
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) for other contents.
 
 #### **Authors**: Chuankai Cheng and J. Cameron Thrash(*)
-Department of Biological Sciences, University of Southern California, Los Angeles, CA, USA
+- Department of Biological Sciences, University of Southern California, Los Angeles, CA, USA
 
 #### (*) Correspondence: J. Cameron Thrash
 - University of Southern California
