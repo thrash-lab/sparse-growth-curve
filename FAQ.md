@@ -2,7 +2,7 @@
 - A1: The sparse-growth-curve package is for analyzing multiple growth curves (can be under low temporal resolution) under multiple conditions and multiple strains with multiple replicates. You can refer to [sparse-growth-curve: A Computation Pipeline for Parsing Cellular Growth Curves under Low Temporal Resolution](https://docs.google.com/document/d/11uvXfO1qYBQnJ3qEPmVq4zH_UmXkScBMF8pW1s1PJgM/edit?usp=sharing) to get a brief idea of why and how wer disigned sparse-growth-curve package.
 
 #### Q2: What is your method in detail to parse and characterize a single growth curve?
-- A2: When you have a growth curve, namely an array of cell densities $X_i$ and the corresponding aquisition time $t_i$
+- A2: When you have a growth curve, namely an array of cell densities $$X_i$$ and the corresponding aquisition time $$t_i$$
 
 
 #### Q3: Why are you using both [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) and [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)?
