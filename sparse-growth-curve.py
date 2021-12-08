@@ -910,4 +910,4 @@ for fn in file_names:
                      file_data_frame)
   growth_condition_dependence(input_file, growth_rates_output_df)
   
-os.system('!zip -r '+output_folder+'.zip'+output_folder)
+os.system('zip -r '+output_folder+'.zip'+output_folder)
