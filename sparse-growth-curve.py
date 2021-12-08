@@ -745,8 +745,7 @@ def growth_condition_dependence(input_file, growth_rates_output_df):
 
   all_targets=np.unique(growth_rates_output_df[layer_1].values)
   numerical_flag=True
-
-  %matplotlib inline
+  
   fig, ax = plt.subplots(constrained_layout=True,
                         figsize=(8,4))
 
@@ -849,6 +848,7 @@ def growth_condition_dependence(input_file, growth_rates_output_df):
                       input_file+'/3_Condition_growth_plot_'+
                       dt_string+'.pdf')
   plt.savefig(output_file_string)
+  plt.close()
 
 for fn in file_names:
   input_file=fn
