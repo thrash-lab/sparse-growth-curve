@@ -182,6 +182,53 @@ def phase_seperations(t, X, max_depth=1):
                   [(t[::2][i]+t[::2][i+1])/2 for i in range(len(t[::2])-1)],
                   t[::2][1::]]
 
+
+  gamma_3=np.diff(np.log2(X)[::3])/np.diff(t[::3])
+  gamma_3=np.r_[gamma_3, gamma_3, gamma_3]
+  t_gamma_3=np.r_[t[::3][0:-1],
+                  [(t[::3][i]+t[::3][i+1])/2 for i in range(len(t[::3])-1)],
+                  t[::3][1::]]
+
+  all_t_gamma=np.r_[t_gamma,t_gamma_2, t_gamma_3]
+  all_gamma=np.r_[gamma, gamma_2, gamma_3]
+
+  all_gamma=all_gamma[np.argsort(all_t_gamma)]
+  all_t_gamma=np.sort(all_t_gamma)
+
+  all_gamma=np.array([np.median(all_gamma[[i,i+1,i+2,i+3,
+                                          i+4,i+5,i+6,i+7,i+8]]) 
+                      for i in range(len(all_t_gamma)-9)])
+  all_t_gamma=np.array([np.median(all_t_gamma[[i,i+1,i+2,i+3,
+                                              i+4,i+5,i+6,i+7,i+8]]) 
+                      for i in range(len(all_t_gamma)-9)])
+
+  sel_t_gamma=np.unique(all_t_gamma)
+  sel_gamma=[]
+  for stg in sel_t_gamma:
+    sel_gamma.append(
+        np.mean(all_gamma[all_t_gamma==stg]))
+  sel_gamma=np.array(sel_gamma)
+
+  # By default, max_depth = 1
+  # Because for a standard growth curve (no diauxic shift) without death phase,
+  # there would only be two states:
+  # 1. Not growing (lag phase and stationary), growth rate is close to 0;
+  # 2. Growing exponentially at an almost constant rate.
+
+  regr_1 = DecisionTreeRegressor(max_depth=max_depth)
+  regr_1.fit(all_t_gamma.reshape(-1, 1), all_gamma)
+
+  t_fit = np.arange(0.0, t[-1], 0.01)[:, np.newaxis]
+  gamma_fit = regr_1.predict(t_fit)
+
+  #We find the state transition point
+  gamma_fit_diff=np.diff(gamma_fit)
+  inflection_points=t_fit[1::][gamma_fit_diff!=0]
+
+  all_starting_time=np.r_[[0],inflection_points.reshape(1,-1)[0], t_fit[-1]]
+
+  return all_starting_time
+
 def phases_exponential_fit(phases_points, t, X, one_order):
   """
   :Authors:
